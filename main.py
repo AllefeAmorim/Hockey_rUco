@@ -20,9 +20,9 @@ detector = aruco.ArucoDetector(aruco_dict, params)
 # =========================
 pygame.mixer.init()
 
-SOM_BATIDA = pygame.mixer.Sound("Som_da_batida.mp3")     # som ao bater no bastão
-SOM_GOL = pygame.mixer.Sound("Som_de_ponto.mp3")       # som ao marcar ponto
-SOM_VITORIA = pygame.mixer.Sound("som_de_vitoria.mp3")  # som de plateia / vitória
+SOM_BATIDA = pygame.mixer.Sound("assets/Som_da_batida.mp3")     # som ao bater no bastão
+SOM_GOL = pygame.mixer.Sound("assets/Som_de_ponto.mp3")       # som ao marcar ponto
+SOM_VITORIA = pygame.mixer.Sound("assets/som_de_vitoria.mp3")  # som de plateia / vitória
 
 SOM_BATIDA.set_volume(0.5)
 SOM_GOL.set_volume(0.7)
